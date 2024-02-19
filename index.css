@@ -1,0 +1,57 @@
+* {
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.app-container {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  height: 90vh;
+}
+
+.app-container > h1 {
+  margin-bottom: 1em;
+}
+
+textarea {
+  border: solid black 1px;
+  color: black;
+  resize: none;
+  width: 100%;
+  max-width: 1500px;
+  min-width: max-content;
+  height: 100%;
+  padding: 1em;
+  outline: solid black;
+  outline-offset: 4px;
+  background-color: transparent;
+}
+
+.textbox-cont {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.placeholder {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: rgb(167, 167, 167);
+  z-index: -1;
+  padding: 1em;
+}
